@@ -132,7 +132,7 @@ const SignIn: React.FC = () => {
                 autoCorrect={false}
                 autoCapitalize="none"
                 keyboardType="email-address"
-                placeholder="Email"
+                placeholder="E-mail"
                 blurOnSubmit={false}
                 returnKeyType="next"
                 onSubmitEditing={() => passwordInputRef.current?.focus()}
